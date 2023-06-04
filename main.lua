@@ -4,7 +4,7 @@ Model.Name = "Image"
 
 img_exists = true
 
-local Buffer = game:GetService("HttpService"):GetAsync('') -- inside the getasync you should have your ngrok's link (eg: GetAsync('https://4805-41-109-150-155.ngrok-free.app/v1/get_image')
+local Buffer = game:GetService("HttpService"):GetAsync('') -- inside the getasync you should have your web app's link (if you're using ngrok for example: GetAsync('https://4805-41-109-150-155.ngrok-free.app/v1/get_image'))
 local Image = PNG.new(Buffer)
 local partTable = {}
 
