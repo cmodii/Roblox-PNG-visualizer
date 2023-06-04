@@ -4,7 +4,7 @@ Small project, uses python and [Clonetrooper's PNG library](https://github.com/M
 This was not meant to be as optimized as possible, you will experience FPS drops (for in-game you'll just have latency issues) while the image is being generated.   <br>
 Feel free to edit this to fit your needs.   <br>
 
-![image](https://github.com/cmodii/Roblox-PNG-visualizer/assets/100476911/b0c69f1a-696c-42f8-ae0f-a53bb84da64a)
+![image](https://github.com/cmodii/Roblox-PNG-visualizer/assets/100476911/fa4dc26a-5854-4db4-8314-49776638a637)
 
 
 # Note
