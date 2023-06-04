@@ -9,24 +9,24 @@ local Image = PNG.new(Buffer)
 local partTable = {}
 
 for x = 1, Image.Width do
-	partTable[x] = {}
-	for y = 1, Image.Height do
-		task.spawn(function()
-			local part = Model:WaitForChild("example"):Clone()
-			part.CFrame = CFrame.new(Vector3.new(x*part.Size.Z+10, (1-y)*part.Size.Z+15, 0))
-			partTable[x][y] = part
-			part.Parent = Model
-			part.Name = "Pixel "..tostring(x).."/"..tostring(y)
-		end)	
-	end
+   partTable[x] = {}
+   for y = 1, Image.Height do
+        task.spawn(function()
+	    local part = Model:WaitForChild("example"):Clone()
+	    part.CFrame = CFrame.new(Vector3.new(x*part.Size.Z+10, (1-y)*part.Size.Z+15, 0))
+            partTable[x][y] = part
+	    part.Parent = Model
+            part.Name = "Pixel "..tostring(x).."/"..tostring(y)
+	end)	
+   end
 
-	if x % 20 == 0 then
-		task.wait()
-	end
+   if x % 20 == 0 then
+      task.wait() -- to avoid run exhaust
+   end
 end
 
 for x = 1, Image.Width do
-	for y = 1, Image.Height do
-		partTable[x][y].Color = Image:GetPixel(x, y)
-	end
+    for y = 1, Image.Height do
+      partTable[x][y].Color = Image:GetPixel(x, y)
+    end
 end
