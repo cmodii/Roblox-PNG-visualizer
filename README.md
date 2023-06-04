@@ -1,6 +1,6 @@
 # Roblox PNG Visualizer
 
-Small project, uses python and [Clonetrooper's PNG library](https://github.com/MaximumADHD/Roblox-PNG-Library) to insert images from computer into a Roblox game. 
+Small project, uses python and [Clonetrooper's PNG library](https://github.com/MaximumADHD/Roblox-PNG-Library) to insert images into a Roblox game. 
 This was not meant to be as optimized as possible, you will experience FPS drops (for in-game you'll just have latency issues) while the image is being generated.   <br>
 Feel free to edit this to fit your needs.   <br>
 
