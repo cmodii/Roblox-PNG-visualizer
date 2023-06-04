@@ -16,7 +16,7 @@ You can use something like [ngrok](https://ngrok.com/), not the fastest but it w
 - Create a python environment and put main.py in the same directory
 - If you're using ngrok, open it and run ```ngrok.exe http 7000```
 - Should give you a link (eg: ``https://4805-41-109-150-155.ngrok-free.app/v1/get_image``) use it in line 7 of the Roblox code
-- Copy the code into a server script and put it in the SSS container
+- Copy the code main.lua into a server script and put it in the SSS container
 - Grab Clonetrooper's PNG library module and put it under the server script
 - Insert a model into the workspace, and put inside a part and name it 'example', then size it really small to operate as a pixel (bigger size = could crash studio)
 - Before you press Run (in studio), make sure you have an image in your python project's directory named image.png
