@@ -23,4 +23,4 @@ You can use something like [ngrok](https://ngrok.com/), not the fastest but it w
 
 If you're not using ngrok just host your app, and put the specified link in line 7
 
-The method used here is creating a site that has a listener which returns a JSONified version of the image that's on the computer's project directory, which gets fetched by Roblox using GetAsync() and then uses an algorithm to sort the pixels which are a collection of small baseparts
+The method employed here involves the usage of a website as a listener that retrieves a JSON representation of an image located in the project directory of the computer. Then using GetAsync() in Roblox to fetch this JSON data, subsequently utilizing an algorithm to arrange the pixels, which are essentially baseparts.
