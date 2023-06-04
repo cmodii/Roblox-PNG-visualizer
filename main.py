@@ -12,7 +12,7 @@ def home():
 
 @app.route('/v1/get_image', methods=['GET'])
 def return_image():
-    return open("image.png", "rb").read()     
+    return open("image.png", "rb").read()  # there must be an image in the project directory   
 
 
 def run():
